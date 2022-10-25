@@ -48,18 +48,18 @@ a:hover{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   margin-left: 20px;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 .main-div ul li{
-  color: aqua;
+  color: rgba(245, 245, 245, 0.637);
   padding: 15px;
   margin-left: 10px;
 }
 
 .footer{
-  height: 26px;
-  padding-top: 10px;
+  height: 60px;
+  padding-top: 50px;
   background-color: white;
   text-align: center;
   font-weight: bold;
