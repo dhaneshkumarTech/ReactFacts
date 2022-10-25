@@ -45,10 +45,20 @@ function MainComponent()
     )
 }
 
+//JSX
+const division = (
+    <nav>
+        <h1>My First React App</h1>
+        <ul>    
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+//React
 ReactDOM.render(
-    <div> 
-        <Navbar />
-        <MainComponent />
-    </div>,
-    document.getElementById("root")
+    division,
+    document.getElementById('root')
 )
