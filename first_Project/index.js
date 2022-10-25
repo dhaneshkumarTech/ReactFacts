@@ -1,13 +1,36 @@
-const page = (
+function Header(){
+    return (
+        <header>
+            <nav> 
+                <img src="react_logo.png" width= "40px"/>
+            </nav>
+        </header>
+    )
+}
+
+function Footer(){
+    return (
+        <footer>
+            <small>@ 2022 Daani development. All rights reserved </small>
+        </footer>
+    )
+}
+function Page(){
+return (
     <div>
-        <h1>First Project with React</h1>
-        <h4>Reason to choose React</h4>
+        {/** Header component with Composable Concept */}
+        <Header/>
+        <h1> Fun Fact About React</h1>
         <ul>
-            <li>Fast</li>
-            <li>Easy to use</li>
-            <li>Easy to learn</li>
-            <li>More React Community</li>
+            <li>React was first released in 2013</li>
+            <li>React is a JavaScript library</li>
+            <li>React is a front-end library</li>
+            <li>React is a library for building user interfaces</li>
+            <li>It is maintained by Facebook</li>
         </ul>
-    </div>
-);
-ReactDOM.render(page, document.getElementById('root'));
+        {/** Footer component with Composable Concept */}
+        <Footer/>
+</div>
+)
+}
+ReactDOM.render(<Page />, document.getElementById("root"));
