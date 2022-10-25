@@ -1,3 +1,5 @@
+import React from "react"
+
 function FooterComponent(){
     return (
         <footer className = "footer">

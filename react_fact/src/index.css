@@ -1,0 +1,25 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+.nav-items li{
+  margin: 0 10px;
+}
+.logo{
+  width: 50px;
+}
+.main-div{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(253, 253, 253);
+}
+.footer{
+  background-color:antiquewhite;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
