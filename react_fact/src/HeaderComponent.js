@@ -2,18 +2,19 @@ import React from "react"
 
 function HeaderComponent(){
     return (
-        <header>
+        <footer>
             <nav className = "nav"> 
-                <img src="logo192.png" className = "logo"/>
+                <img src="logo192.png" alt = "React logo should appear"className = "logo"/>
                 <ul className = "nav-items">
-                    <li>Pricing</li>
                     <li>Documentation</li>
+                    <li>Download</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
             </nav>
-        </header>
+        </footer>
     )
+   
 }
 
 export default HeaderComponent

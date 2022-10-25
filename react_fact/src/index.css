@@ -1,15 +1,23 @@
+body, div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .nav{
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #eee;
+  height: 60px;
+
 }
 .nav-items{
   list-style: none;
   display: flex;
+  color: white;
 }
 .nav-items li{
-  margin: 0 10px;
+  margin: 10px;
 }
 .logo{
   width: 50px;
