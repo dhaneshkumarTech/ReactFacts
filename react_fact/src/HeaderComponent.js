@@ -4,7 +4,10 @@ function HeaderComponent(){
     return (
         <footer>
             <nav className = "nav"> 
-                <img src="logo192.png" alt = "React logo should appear"className = "logo"/>
+                <div className="nav-div">
+                    <img src="logo192.png" alt = "React logo should appear"className = "logo"/>
+                    <h3>ReactFacts</h3>
+                </div>
                 <ul className = "nav-items">
                     <li>Documentation</li>
                     <li>Download</li>
