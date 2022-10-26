@@ -5,24 +5,38 @@
 }
 img{
   border-radius: 10px;
-  width: 320px;
+  width: 340px;
 }
-
-.profile-div h2{
+.main-component{
+  margin-top:-10px;
+  
+}
+.personal-info{
+  text-align: center;
+}
+.more-info{
+  margin-left: 80px;
+  margin-right: 60px;
+  text-align: justify;
+  color: white;
+}
+.more-info p{
+  color: #DCDCDC;
+}
+.main-component h2{
   color: #fff;
-  padding-top: 20px;
 }
-.profile-div h4{
+.main-component h4{
   color: #F3BF99;
   margin: 0px;
   line-height: 0px;
 }
-.profile-div a{
+.main-component a{
   color: #F5F5F5;
   text-decoration: none;
   margin: 0px;
 }
-.profile-div a:hover{
+.main-component a:hover{
   text-decoration: underline;
 }
 button{
@@ -62,3 +76,4 @@ button{
   width: 15px;
   margin-right: 10px;
 }
+
