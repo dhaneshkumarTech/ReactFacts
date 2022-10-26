@@ -4,9 +4,9 @@ function Main(){
     return (
         <div className="main-component">
             <div className="personal-info">
-                <h2>Dr AllahBux Mahar</h2>
-                <h4>General Physician</h4>
-                <a href="#"><p>drallahbux.website</p></a>
+                <h2>Dhanesh Kumar</h2>
+                <h4>Web Application Developer</h4>
+                <a href="#"><p>dhaneshkumar.com</p></a>
                 <button className="email-btn"><img src='images/gmail-logo.png' alt='Gmail logo'></img>Gmail</button>
                 <button className="facebook-btn"><img src='images/facebook-logo.png' alt='Facebook logo'></img>Facebook</button>
             </div>
