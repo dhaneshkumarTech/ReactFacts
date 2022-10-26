@@ -3,7 +3,7 @@
   text-align: center;  
   padding: 15px;
 }
-img{
+.profile-div img{
   border-radius: 10px;
   width: 340px;
 }
@@ -41,15 +41,15 @@ img{
   text-decoration: underline;
 }
 button{
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
-  margin-top: 20px;
-  width: 130px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 140px;
+  height: 30px;
   font-size: 15px;
-
 }
 .email-btn{
-  color: balck;
   border: none;
   cursor: pointer;
   margin-right: 10px;
@@ -58,25 +58,38 @@ button{
   background-color: #c71610;
   color: black;
 }
+.email-btn a{
+  color: black;
+}
+.email-btn a:hover{
+  text-decoration: none;
+}
 .email-btn img{
-  width: 15px;
+  width: 20px;
   margin-right: 10px;
   align-items: center;
 }
-.facebook-btn{
-  color: balck;
+.linkedin-btn{
   border: none;
   cursor: pointer;
   margin-left: 10px;
 }
-.facebook-btn:hover{
+.linkedin-btn:hover{
   background-color: #0165E1;
   color: #fff;
 }
-.facebook-btn img{
-  width: 15px;
+.linkedin-btn a{
+  color: black;
+  text-decoration: none;
+}
+.linkedin-btn a:hover{
+  text-decoration: none;
+}
+.linkedin-btn img{
+  width: 20px;
   margin-right: 10px;
 }
+
 .footer-component{
   background-color: #161619;
   text-align: center;
@@ -90,11 +103,10 @@ button{
   
 }
 .footer-component img{
-  padding: 0.6px;
-  height: 25px;
-  width: 25px;
+  margin-top: 2.7px;
+  height: 20px;
+  width: 20px;
 }
 .footer-component button:hover{
-  background-color: #c71610;
-  color: black;
+  background-color:  yellow;
 }

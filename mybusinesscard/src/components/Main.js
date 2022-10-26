@@ -6,9 +6,16 @@ function Main(){
             <div className="personal-info">
                 <h2>Dhanesh Kumar</h2>
                 <h4>Web Application Developer</h4>
-                <a href="#"><p>dhaneshkumar.com</p></a>
-                <button className="email-btn"><img src='images/gmail-logo.png' alt='Gmail logo'></img>Gmail</button>
-                <button className="facebook-btn"><img src='images/facebook-logo.png' alt='Facebook logo'></img>Facebook</button>
+                <a href="https://dhaneshkumar.me/"><p>dhaneshkumar.com</p></a>
+                
+                <button className="email-btn">
+                    <img src='images/gmail-logo.png' alt='Gmail logo'></img>
+                    <a href="mailto:dhaneshkumar79152@gmail.com">Email</a>
+                </button>
+                <button className="linkedin-btn">
+                    <img src='images/linkedin-logo.png' alt='LinkedIn logo'></img>
+                    <a href="https://www.linkedin.com/in/dhaneshkumar00/">LinkedIn</a>
+                </button>
             </div>
             <div className="more-info">
                 <h3>About</h3>
