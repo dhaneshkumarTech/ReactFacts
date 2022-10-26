@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.profile-div{
+  width: auto;  
+  text-align: center;  
+  padding: 15px;
+}
+img{
+  border-radius: 10px;
+  width: 320px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-div h2{
+  color: #fff;
+  padding-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-div h4{
+  color: #F3BF99;
+  margin: 0px;
+  line-height: 0px;
 }
+.profile-div a{
+  color: #F5F5F5;
+  text-decoration: none;
+  margin: 0px;
+}
+.profile-div a:hover{
+  text-decoration: underline;
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 130px;
+  font-size: 15px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+.email-btn{
+  color: balck;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.email-btn:hover{
+  background-color: #c71610;
+  color: black;
+}
+.email-btn img{
+  width: 15px;
+  margin-right: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.facebook-btn{
+  color: balck;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.facebook-btn:hover{
+  background-color: #0165E1;
+  color: #fff;
+}
+.facebook-btn img{
+  width: 15px;
+  margin-right: 10px;
 }
